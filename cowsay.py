@@ -55,7 +55,7 @@ def get_border(lines, index):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print "Usage: 'cowsay string'"
+        print "Usage: '%s string'" % sys.argv[0]
         sys.exit(0)
 
     print cowsay(sys.argv[1])

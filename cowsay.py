@@ -1,5 +1,6 @@
 # A python implementation of cowsay <http://www.nog.net/~tony/warez/cowsay.shtml>
 # Copyright 2011 Jesse Chan-Norris <jcn@pith.org>
+# Licensed under the GNU LGPL version 3.0
 
 import sys
 import textwrap

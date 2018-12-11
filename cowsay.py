@@ -2,6 +2,7 @@
 # Copyright 2011 Jesse Chan-Norris <jcn@pith.org>
 # Licensed under the GNU LGPL version 3.0
 
+from __future__ import print_function
 import sys
 import textwrap
 
@@ -12,7 +13,7 @@ def build_cow():
     return """
          \   ^__^ 
           \  (oo)\_______
-             (__)\       )\/\\
+             (__)\       )\/\\\\
                  ||----w |
                  ||     ||
     """
@@ -45,10 +46,10 @@ def get_border(lines, index):
         return [ "<", ">" ]
 
     elif index == 0:
-        return [ "/", "\\" ]
+        return [ "/", "\\\\" ]
     
     elif index == len(lines) - 1:
-        return [ "\\", "/" ]
+        return [ "\\\\", "/" ]
     
     else:
         return [ "|", "|" ]
@@ -56,7 +57,7 @@ def get_border(lines, index):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print "Usage: '%s string'" % sys.argv[0]
+        print ("Usage: '%s string'" % sys.argv[0])
         sys.exit(0)
 
-    print cowsay(sys.argv[1])
+    print (cowsay(sys.argv[1]))

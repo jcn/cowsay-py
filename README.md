@@ -1,14 +1,13 @@
-=========
-cowsay-py
-=========
+# cowsay-py
 
 cowsay-py is a python implementation of the cowsay program by Tony Monroe: http://www.nog.net/~tony/warez/cowsay.shtml
 
-Copyright 2011 Jesse Chan-Norris <jcn@pith.org>
-Modified 2018 Randall Kahler <rk@angrychimp.net>
+## Authors
 
+* Copyright © 2011 Jesse Chan-Norris (jcn@pith.org)
+* Modified 2018 Randall Kahler (rk@angrychimp.net)
 
-LICENSE
+## LICENSE
 
 cowsay-py is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by

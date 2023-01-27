@@ -11,11 +11,11 @@ def cowsay(str, length=40):
 
 def build_cow():
     return """
-         \   ^__^ 
-          \  (oo)\_______
-             (__)\       )\/\\\\
-                 ||----w |
-                 ||     ||
+         \         W__---------______
+          \    (o)| (o)             |
+           \ _____|                 |_--------.
+             '----L_________________|--_______|
+                     J L       J L
     """
 
 def build_bubble(str, length=40):
@@ -61,3 +61,5 @@ if __name__ == '__main__':
         sys.exit(0)
 
     print (cowsay(sys.argv[1]))
+
+

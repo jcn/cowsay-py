@@ -12,10 +12,10 @@ def cowsay(str, length=40):
 def build_cow():
     return """
          \   ^__^ 
-          \  (oo)\_______
-             (__)\       )\/\\\\
-                 ||----w |
-                 ||     ||
+          \  (@@)\_______
+             (_-_)\       )//////
+                 ||----ww |
+                 |w|     |w|
     """
 
 def build_bubble(str, length=40):
